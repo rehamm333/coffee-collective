@@ -67,19 +67,19 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-import espresso  from '../assets/Espresso product6.jpg'
-import latte     from '../assets/Latte product4.jpg'
-import cortado   from '../assets/Cortado product5.jpg'
-import turkish   from '../assets/Turkish coffee product1.jpg'
-import v60       from '../assets/V60 product3.jpg'
-import icedLatte from '../assets/Iced Latte Product2.jpg'
-import coldBrew  from '../assets/Cold Brew.jpg'
-import alfredo   from '../assets/Alfredo coffee product7.jpg'
-import pkg1      from '../assets/Coffee packaging1.jpg'
-import pkg2      from '../assets/Coffee packaging2.jpg'
-import pkg3      from '../assets/Coffee packaging3.jpg'
-import pkg4      from '../assets/Coffee packaging4.jpg'
-import pkg5      from '../assets/Coffee packaging5.jpg'
+import espresso  from '../assets/Espresso-product6.jpg'
+import latte     from '../assets/Latte-product4.jpg'
+import cortado   from '../assets/Cortado-product5.jpg'
+import turkish   from '../assets/Turkish-coffee-product1.jpg'
+import v60       from '../assets/V60-product3.jpg'
+import icedLatte from '../assets/Iced-Latte-Product2.jpg'
+import coldBrew  from '../assets/Cold-Brew.jpg'
+import alfredo   from '../assets/Alfredo-coffee-product7.jpg'
+import pkg1      from '../assets/Coffee-packaging1.jpg'
+import pkg2      from '../assets/Coffee-packaging2.jpg'
+import pkg3      from '../assets/Coffee-packaging3.jpg'
+import pkg4      from '../assets/Coffee-packaging4.jpg'
+import pkg5      from '../assets/Coffee-packaging5.jpg'
 
 const categories = ['All', 'Espresso', 'Filter', 'Cold', 'Beans']
 const activeCategory = ref('All')

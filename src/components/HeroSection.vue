@@ -4,7 +4,7 @@
     <!-- Hero -->
     <section class="hero">
       <div class="hero-media">
-        <img src="../assets/Page hero.jpg" alt="Coffee shop" class="hero-img" />
+        <img src="../assets/Page-hero.jpg" alt="Coffee shop" class="hero-img" />
         <div class="hero-overlay"></div>
       </div>
       <div class="hero-content">
@@ -31,8 +31,8 @@
           <a href="#contact" class="btn-ghost">Visit Us</a>
         </div>
         <div class="about-images">
-          <img src="../assets/Description of the cafe.jpg" alt="Our cafe" class="about-img-1" />
-          <img src="../assets/Description of coffee2.jpg" alt="Coffee close-up" class="about-img-2" />
+          <img src="../assets/Description-of-the-cafe.jpg" alt="Our cafe" class="about-img-1" />
+          <img src="../assets/Description-of-coffee2.jpg" alt="Coffee close-up" class="about-img-2" />
         </div>
       </div>
     </section>
@@ -96,16 +96,16 @@
 </template>
 
 <script setup>
-import img1 from '../assets/Description of coffee beans.jpg'
-import img2 from '../assets/Cortado product5.jpg'
-import img3 from '../assets/Espresso product6.jpg'
-import img4 from '../assets/Latte product4.jpg'
-import img5 from '../assets/Turkish coffee product1.jpg'
-import img6 from '../assets/V60 product3.jpg'
+import img1 from '../assets/Description-of-coffee-beans.jpg'
+import img2 from '../assets/Cortado-product5.jpg'
+import img3 from '../assets/Espresso-product6.jpg'
+import img4 from '../assets/Latte-product4.jpg'
+import img5 from '../assets/Turkish-coffee-product1.jpg'
+import img6 from '../assets/V60-product3.jpg'
 
-import p1 from '../assets/Coffee packaging1.jpg'
-import p2 from '../assets/Coffee packaging2.jpg'
-import p3 from '../assets/Coffee packaging3.jpg'
+import p1 from '../assets/Coffee-packaging1.jpg'
+import p2 from '../assets/Coffee-packaging2.jpg'
+import p3 from '../assets/Coffee-packaging3.jpg'
 
 const coffees = [
   { name: 'Ethiopia Yirgacheffe',   origin: 'Floral · Bergamot · Peach',          img: img1 },
