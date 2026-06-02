@@ -8,8 +8,7 @@ const router = createRouter({
   routes: [
     { path: '/',        component: () => import('./components/HeroSection.vue') },
     { path: '/menu',    component: () => import('./components/MenuSection.vue') },
-    { path: '/about',   component: () => import('./components/AboutPage.vue') },
-    { path: '/contact', component: () => import('./components/ContactPage.vue') },
+    { path: '/:pathMatch(.*)*', redirect: '/' }
   ],
   scrollBehavior() { return { top: 0 } }
 })
